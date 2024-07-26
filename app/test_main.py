@@ -17,5 +17,5 @@ import pytest
         ("Aa", False)
     ]
 )
-def test_is_isogram(word_lower: str, result: list) -> None:
+def test_is_isogram(word_lower: str, result: bool) -> None:
     assert is_isogram(word_lower) == result
