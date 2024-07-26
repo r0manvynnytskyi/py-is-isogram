@@ -9,12 +9,12 @@ import pytest
         ("Hidden", False),
         ("Hide", True),
         ("bag", True),
-        ("Bag", True),
-        ("Bagg", False),
+        ("Baga", False),
+        ("Begging", False),
         ("", True),
         (" ", True),
         ("A", True),
-        ("Aa", False)
+        ("Aa", False),
     ]
 )
 def test_is_isogram(word_lower: str, result: bool) -> None:
